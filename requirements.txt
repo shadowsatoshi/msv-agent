@@ -1,4 +1,9 @@
-pandas
-numpy
-yfinance
-matplotlib
+streamlit==1.36.0
+plotly==5.22.0
+pandas==2.2.2
+numpy==1.26.4
+websockets==12.0
+requests==2.32.3
+orjson==3.10.7
+python-dateutil==2.9.0.post0
+pytz==2024.1
