@@ -1,0 +1,23 @@
+{
+  "symbol": "AAPL",
+  "day": "2025-08-08",
+  "timeframe": "5m",
+  "tz": "America/New_York",
+  "session_open": "09:30",
+  "session_close": "16:00",
+  "orb": {
+    "start": "2025-08-08 09:30:00-04:00",
+    "end": "2025-08-08 10:00:00-04:00",
+    "high": 222.2998046875,
+    "low": 219.25
+  },
+  "signal": {
+    "direction": "long",
+    "reason": "BOS up + volume",
+    "entry": 222.3,
+    "stop": 219.25,
+    "tp1": 225.35,
+    "tp2": 228.4,
+    "bos_time": "2025-08-08 11:35:00-04:00"
+  }
+}

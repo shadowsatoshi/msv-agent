@@ -1,0 +1,69 @@
+{
+  "symbol": "ETHUSDT",
+  "pair": "Binance spot",
+  "timeframe": "5m",
+  "tz": "UTC",
+  "day": "2025-08-10",
+  "sessions": {
+    "asia": [
+      "00:00",
+      "08:00"
+    ],
+    "london": [
+      "08:00",
+      "13:00"
+    ],
+    "ny": [
+      "13:30",
+      "20:00"
+    ]
+  },
+  "orb": {
+    "start": "2025-08-10 13:34:59.999000+00:00",
+    "end": "2025-08-10 14:04:59.999000+00:00",
+    "high": 4191.44,
+    "low": 4166.01
+  },
+  "po3": {
+    "asia_high": 4332.6,
+    "asia_low": 4176.0,
+    "man_dir": "down",
+    "man_time": "2025-08-10 08:04:59.999000+00:00",
+    "orb_end": "2025-08-10 14:04:59.999000+00:00"
+  },
+  "bos_first": {
+    "time": "2025-08-10 15:14:59.999000+00:00",
+    "type": "BOS_UP",
+    "level": 4226.7,
+    "close": 4230.51
+  },
+  "indicators": {
+    "rsi14": 58.79,
+    "stochrsi_k": 0.341,
+    "stochrsi_d": 0.264,
+    "macd_hist": 1.0697,
+    "bb_upper": 4254.7,
+    "bb_lower": 4208.98,
+    "vwap": 4217.71
+  },
+  "confluence": {
+    "score": 76,
+    "reasons": [
+      "BOS detected",
+      "VWAP aligned",
+      "MACD aligned",
+      "Volume >= 1.5\u00d7 median",
+      "PO3 aligned with distribution",
+      "BB mid above (trend up bias)",
+      "RSI in trend zone",
+      "Use ORB high/low for R/R"
+    ]
+  },
+  "signal": {
+    "direction": "long",
+    "entry": 4191.44,
+    "stop": 4166.01,
+    "tp1": 4216.87,
+    "tp2": 4242.3
+  }
+}
